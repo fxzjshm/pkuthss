@@ -393,7 +393,7 @@
 		{%
 			\ifthss@opt@ugly\zihao{-1}\else\zihao{2}\fi%
 			\linespread{1.6}\selectfont{\label@ctitle}%
-			\thss@int@fillinblank{2}{0.64\textwidth}{\textbf{\@ctitle}}%
+			\thss@int@fillinblank{2}{0.64\textwidth}{\textbf{\@ctitle \\ \@etitle}}%
 		}
 		\vfill
 		% Information about the author.
@@ -410,8 +410,8 @@
 				\thss@int@fillinblank{1}{\thss@tmp@len}{\fangsong\@school}		\\
 				{\bfseries\label@cmajor}		&
 				\thss@int@fillinblank{1}{\thss@tmp@len}{\fangsong\@cmajor}		\\
-				{\bfseries\label@direction}	&
-				\thss@int@fillinblank{1}{\thss@tmp@len}{\fangsong\@direction}	\\
+				% {\bfseries\label@direction}	&
+				% \thss@int@fillinblank{1}{\thss@tmp@len}{\fangsong\@direction}	\\
 				{\bfseries\label@cmentor}		&
 				\thss@int@fillinblank{\mentorlines}%
 					{\thss@tmp@len}{\fangsong\@cmentor}	\\
