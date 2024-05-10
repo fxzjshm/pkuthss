@@ -391,9 +391,9 @@
 		\vfill
 		% Title of the thesis.
 		{%
-			\ifthss@opt@ugly\zihao{-1}\else\zihao{2}\fi%
+			\ifthss@opt@ugly\zihao{-1}\else\zihao{-2}\fi%
 			\linespread{1.6}\selectfont{\label@ctitle}%
-			\thss@int@fillinblank{2}{0.64\textwidth}{\textbf{\@ctitle \\ \@etitle}}%
+			\thss@int@fillinblank{5}{0.64\textwidth}{\textbf{\@ctitle \\ \@etitle}}%
 		}
 		\vfill
 		% Information about the author.
